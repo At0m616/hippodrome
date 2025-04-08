@@ -21,7 +21,7 @@ public class Hippodrome {
         }
 
         this.horses = horses;
-        logger.debug("Created Hippodrome with horses size: {}", horses.size());
+        logger.debug("Создание Hippodrome, лошадей [{}]", horses.size());
     }
 
     public List<Horse> getHorses() {

@@ -29,7 +29,7 @@ public class Horse {
         this.name = name;
         this.speed = speed;
         this.distance = distance;
-        logger.debug("Horse created, name {}, speed {}", this.name, this.speed);
+        logger.debug("Создание Horse, имя [{}], скорость [{}]", this.name, this.speed);
     }
 
     public Horse(String name, double speed) {
